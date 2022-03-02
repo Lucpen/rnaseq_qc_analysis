@@ -43,9 +43,6 @@ def extracting_info_json_MultiQC(path_json, main_dict_to_get_data_from, inf_sel)
             print("You must input a list or dictionary with the information you want out!")
     return df_subs_json
 
-
-
-
 inf_sel=["salmon_quant","star_fusion"]
 path_json='/Users/luciapenaperez/Downloads/multiqc_data.json'
 main_dict_to_get_data_from='report_general_stats_data'
